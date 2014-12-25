@@ -1,0 +1,34 @@
+src/*.exe
+src/threadcoin
+src/threadcoind
+src/test_threadcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.threadcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+threadcoin-qt
+Threadcoin-Qt.app
+
+# Unit-tests
+Makefile.test
+threadcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
